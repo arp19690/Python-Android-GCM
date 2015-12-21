@@ -29,3 +29,5 @@ sudo pip install python-gcm
 <code>gcm</code>: add your API KEY from the Google API project; make sure your server's IP address is in the allowed IPs
 
 <code>registration_ids</code>: add registration_ids of your Android devices to whom you would like to send notifications
+
+Check logs for any kind of errors
