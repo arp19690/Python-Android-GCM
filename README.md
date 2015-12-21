@@ -1,28 +1,28 @@
 # Python-Android-GCM
 A python script to send GCM notifications for Android devices
 
-Step One - Set Up Python GCM Simple Server
+#### Step One - Set Up Python GCM Simple Server
 Log in to your server with a sudo user.
 
-Update your package lists:
+* Update your package lists:
 
 ```shell
-sudo apt-get update</code>
+sudo apt-get update
 ```
 
-Install the Python packages:
+* Install the Python packages:
 
 ```shell
 sudo apt-get install python-pip python-dev build-essential
 ```
 
-Install python-gcm. Find out more about python-gcm here.
+* Install python-gcm. Find out more about python-gcm here.
 
 ```shell
 sudo pip install python-gcm
 ```
 
-Explanation:
+#### Explanation:
 
 <code>from gcm import *</code>: this imports the Python client for Google Cloud Messaging for Android
 
